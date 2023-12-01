@@ -1,6 +1,8 @@
 ## Testing BARK
 
-Creating a basic gradio app to create audio-text using (bark)['https://github.com/suno-ai/bark']
+Creating a basic gradio app to create audio-text using [Bark]('https://github.com/suno-ai/bark').
+
+<img src="images/interface.png">
 
 ### Docker
 
@@ -25,3 +27,11 @@ docker run -ti -p 7860:7860 -p 443:443 -v /path/to/store/generated/files/:/outpu
 ### Browser 
 
 Open your brother using the provided gradio url.
+
+
+### Final result integrate in AI audio driven video
+
+Sample generated using [D-ID]('https://www.d-id.com/').
+
+https://youtube.com/shorts/YwRJgkuVTFQ?feature=share
+
