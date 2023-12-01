@@ -31,6 +31,8 @@ Open your brother using the provided gradio url.
 
 ### Final result integrate in AI audio driven video
 
+<img src="images/video-preview.png">
+
 Sample generated using [D-ID](https://d-id.com/).
 
 https://youtube.com/shorts/YwRJgkuVTFQ?feature=share
