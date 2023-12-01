@@ -1,6 +1,6 @@
 ## Testing BARK
 
-Creating a basic gradio app to create audio-text using [Bark]('https://github.com/suno-ai/bark').
+Creating a basic gradio app to create audio-text using [Bark](https://github.com/suno-ai/bark).
 
 <img src="images/interface.png">
 
@@ -31,7 +31,7 @@ Open your brother using the provided gradio url.
 
 ### Final result integrate in AI audio driven video
 
-Sample generated using [D-ID]('https://d-id.com/').
+Sample generated using [D-ID](https://d-id.com/).
 
 https://youtube.com/shorts/YwRJgkuVTFQ?feature=share
 
