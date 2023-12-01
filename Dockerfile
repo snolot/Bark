@@ -2,6 +2,7 @@ FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+ENV LAUNCH_APP=app_simple.py
 ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
@@ -46,4 +47,6 @@ RUN pip3 install git+https://github.com/huggingface/transformers.git
 
 ENV LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so.4
 
-CMD ["python3", "test.py"]
+RUN echo "Launch app:$LAUNCH_APP"
+
+CMD python3 $LAUNCH_APP
