@@ -29,6 +29,11 @@ docker run -ti -p 7860:7860 -p 443:443 -v /path/to/store/generated/files/:/outpu
 Open your brother using the provided gradio url.
 
 
+### Notebook
+
+Same example to run on Google Colab.
+
+
 ### Final result integrate in AI audio driven video
 
 Sample generated using [D-ID](https://d-id.com/).
